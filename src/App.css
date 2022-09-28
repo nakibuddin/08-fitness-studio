@@ -1,4 +1,19 @@
-.App {
-    /* text-align: center; */
+.my-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: #F2F4FA;
+    /* background-color: #c2d1ff; */
 }
+
+.exercises-container {
+    /* border: 1px solid red;     */
+    margin: 80px 12% 0 12%;    
+}
+
+.cart-container {
+    background-color: white;
+    padding: 25px;
+}
+
+
   
