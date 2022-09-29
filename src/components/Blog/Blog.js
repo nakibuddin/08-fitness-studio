@@ -8,7 +8,7 @@ const Blog = () => {
             <h4>How does react work:</h4>
             <p>React uses a declarative paradigm that makes it easier to reason about your application and aims to be both efficient and flexible. It designs simple views for each state in your application, and React will efficiently update and render just the right component when your data changes.</p>
             
-            <h4>Difference props and state react:</h4>
+            <h4>Difference between props and state in react:</h4>
             <p>The key difference between props and state is that state is internal and controlled by the component itself while props are external and controlled by whatever renders the component.</p>
             
             <h4>Why do we use useEffect in react:</h4>

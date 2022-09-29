@@ -5,6 +5,8 @@ import Profile from './components/Profile/Profile';
 import { useState } from 'react';
 import Break from './components/Break/Break';
 import Blog from './components/Blog/Blog';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee, faShoppingCart, faHeart} from '@fortawesome/free-solid-svg-icons';
 
 
 function App() {
@@ -18,8 +20,12 @@ function App() {
 
     return (
         <div className="my-container">
-            <div className='exercises-container'>
-                <h3>Fitness Studio</h3>
+            <div className='exercises-container'>                
+                <div className='headline'>
+                    <span><FontAwesomeIcon icon={faHeart}></FontAwesomeIcon></span>
+                    {/* <FontAwesomeIcon icon="fa-solid fa-dumbbell"></FontAwesomeIcon> */}
+                    <h3>Fitness Studio</h3>
+                </div>
                 <h4>Select today’s exercise</h4> 
                 <Exercises addToList={addToList}></Exercises>
                 <Blog></Blog>

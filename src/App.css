@@ -4,7 +4,6 @@
     background-color: #F2F4FA;
     /* background-color: #c2d1ff; */
 }
-
 .exercises-container {
     /* border: 1px solid red;     */
     margin: 80px 12% 0 12%;    
@@ -15,12 +14,24 @@
 }
 .exercises-container h3 {
     color: #5D5FEF;
+    margin-left: 15px;
+}
+
+.headline {
+    display: flex;
+    align-items: center;    
+}
+.headline span {
+    font-size: 30px;
+    color: #5D5FEF;
 }
 
 .cart-container {
     background-color: white;
     padding: 25px;
 }
+
+
 
 
   
