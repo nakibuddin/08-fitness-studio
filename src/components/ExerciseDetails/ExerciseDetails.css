@@ -1,0 +1,23 @@
+.exercise-details div p,h6 {
+    margin: 0;
+}
+
+.exercise-details div {
+    background-color: #F2F4FA;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    margin: 20px 0 20px 0;    
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.exercise-details  button{    
+    background-color: #5D5FEF;
+    color: white;
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 8px;        
+    margin-top: 50px;
+}

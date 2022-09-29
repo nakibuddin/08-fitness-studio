@@ -9,7 +9,7 @@ const Exercise = (props) => {
             <h5>{name}</h5>
             <p>For Age: {age}</p>
             <p>Time required: {time}s</p>
-            <button>Add to list</button>
+            <button onClick={() => props.addToList(time)}>Add to list</button>
         </div>
     );
 };
