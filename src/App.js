@@ -10,7 +10,10 @@ function App() {
     const [exerciseTimes, setExerciseTimes] = useState(0);
     const [breakTime, setBreakTime] = useState(0);
     const addToList = (time) => setExerciseTimes(exerciseTimes + time) ;    
-    const addABreak = (time) => setBreakTime(time) ;
+    const addABreak = (time) => {
+        setBreakTime(time);
+        localStorage.setItem('time',time);
+    } ;
 
     return (
         <div className="my-container">

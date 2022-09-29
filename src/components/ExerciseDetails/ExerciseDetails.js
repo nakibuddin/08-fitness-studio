@@ -1,7 +1,12 @@
 import React from 'react';
 import './ExerciseDetails.css'
 
-const ExerciseDetails = (props) => {
+const ExerciseDetails = (props) => {   
+    let breakTime = props.breakTime; 
+    if(breakTime === 0) {
+        breakTime = localStorage.getItem('time');
+    }
+    
     return (
         <div className='exercise-details'>
             <h5>Exercise Details</h5>
@@ -12,8 +17,8 @@ const ExerciseDetails = (props) => {
             </div>            
 
             <div>
-                <h6>Break time</h6>
-                <p>{props.breakTime} secondes</p>
+                <h6>Break time</h6>                
+                <p>{breakTime} secondes</p>
             </div>            
 
             <button >Activity Completed</button>
