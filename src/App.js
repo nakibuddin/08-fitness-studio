@@ -7,6 +7,7 @@ import Break from './components/Break/Break';
 import Blog from './components/Blog/Blog';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart} from '@fortawesome/free-solid-svg-icons';
+import MyToast from './components/MyToast/MyToast';
 
 
 function App() {
@@ -34,7 +35,8 @@ function App() {
             <div className='cart-container'>
                 <Profile></Profile>
                 <Break addABreak={addABreak}></Break>
-                <ExerciseDetails exerciseTimes={exerciseTimes} breakTime={breakTime}></ExerciseDetails>                
+                <ExerciseDetails exerciseTimes={exerciseTimes} breakTime={breakTime}></ExerciseDetails>                            
+                <MyToast></MyToast>
             </div>
         </div>
     );

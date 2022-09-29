@@ -19,9 +19,7 @@ const ExerciseDetails = (props) => {
             <div>
                 <h6>Break time</h6>                
                 <p>{breakTime} secondes</p>
-            </div>            
-
-            <button >Activity Completed</button>
+            </div>                        
         </div>
     );
 };
