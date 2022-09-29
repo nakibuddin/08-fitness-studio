@@ -1,9 +1,9 @@
 .my-container {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    background-color: #F2F4FA;
-    /* background-color: #c2d1ff; */
+    background-color: #F2F4FA; 
 }
+
 .exercises-container {
     /* border: 1px solid red;     */
     margin: 80px 12% 0 12%;    
@@ -32,6 +32,14 @@
 }
 
 
-
-
-  
+@media screen and (min-width: 0px) and (max-width: 575px) {
+    .my-container {               
+        display: flex;
+        flex-direction: column-reverse;        
+    }
+    .exercises-container {
+        /* border: 1px solid red;     */
+        margin: 50px 0 0 0 ;
+        padding: 15px;
+    }
+}

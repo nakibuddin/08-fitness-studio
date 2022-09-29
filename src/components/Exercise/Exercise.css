@@ -25,3 +25,14 @@
     border-radius: 8px;  
     margin-top: 20px;
 }
+
+@media screen and (min-width: 0px ) and (max-width: 575px) {
+    .exercise {
+        margin-bottom: 30px;
+        /* margin-left: 10px; */
+        /* margin-right: 10px; */
+    }
+    .exercise img {
+        height: 180px;
+    }
+}

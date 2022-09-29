@@ -23,7 +23,7 @@ function App() {
             <div className='exercises-container'>                
                 <div className='headline'>
                     <span><FontAwesomeIcon icon={faHeart}></FontAwesomeIcon></span>
-                    {/* <FontAwesomeIcon icon="fa-solid fa-dumbbell"></FontAwesomeIcon> */}
+                                                        {/* <FontAwesomeIcon icon="fa-solid fa-dumbbell"></FontAwesomeIcon> */}
                     <h3>Fitness Studio</h3>
                 </div>
                 <h4>Select today’s exercise</h4> 
