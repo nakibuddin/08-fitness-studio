@@ -14,3 +14,8 @@
     padding: 8px;
     font-weight: 600;
 }
+
+.break button:hover {
+    background-color: #5D5FEF;
+    color: white;
+}
