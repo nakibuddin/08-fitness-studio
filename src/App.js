@@ -6,7 +6,7 @@ import { useState } from 'react';
 import Break from './components/Break/Break';
 import Blog from './components/Blog/Blog';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faShoppingCart, faHeart} from '@fortawesome/free-solid-svg-icons';
+import { faHeart} from '@fortawesome/free-solid-svg-icons';
 
 
 function App() {
