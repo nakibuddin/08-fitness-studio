@@ -13,7 +13,9 @@ import MyToast from './components/MyToast/MyToast';
 function App() {
     const [exerciseTimes, setExerciseTimes] = useState(0);
     const [breakTime, setBreakTime] = useState(0);
+    
     const addToList = (time) => setExerciseTimes(exerciseTimes + time) ;    
+    
     const addABreak = (time) => {
         setBreakTime(time);
         localStorage.setItem('time',time);
@@ -24,7 +26,7 @@ function App() {
             <div className='exercises-container'>                
                 <div className='headline'>
                     <span><FontAwesomeIcon icon={faHeart}></FontAwesomeIcon></span>
-                                                        {/* <FontAwesomeIcon icon="fa-solid fa-dumbbell"></FontAwesomeIcon> */}
+                    {/* <FontAwesomeIcon icon="fa-solid fa-dumbbell"></FontAwesomeIcon> */}
                     <h3>Fitness Studio</h3>
                 </div>
                 <h4>Select today’s exercise</h4> 
