@@ -1,7 +1,14 @@
 [
-    {"id": 1, "img":"https://manofmany.com/wp-content/uploads/2020/07/Best-Dumbbell-Exercises-For-Men.jpg", "name": "Dumbbell", "age": "20-25", "time": 30},   
-    {"id": 2, "img":"https://manofmany.com/wp-content/uploads/2020/07/Best-Dumbbell-Exercises-For-Men.jpg", "name": "Dumbbell", "age": "20-25", "time": 40},   
-    {"id": 3, "img":"https://manofmany.com/wp-content/uploads/2020/07/Best-Dumbbell-Exercises-For-Men.jpg", "name": "Dumbbell", "age": "20-25", "time": 50},   
-    {"id": 4, "img":"https://manofmany.com/wp-content/uploads/2020/07/Best-Dumbbell-Exercises-For-Men.jpg", "name": "Dumbbell", "age": "20-25", "time": 60}   
+    {"id": 1, "img":"https://manofmany.com/wp-content/uploads/2020/07/Best-Dumbbell-Exercises-For-Men.jpg", "name": "Dumbbell", "age": "20-25", "time": 30},  
+
+    {"id": 2, "img":"https://barbend.com/wp-content/uploads/2019/04/How-to-Walking-Lunge-1024x737.jpg", "name": "Lunge", "age": "20-25", "time": 40},   
+
+    {"id": 3, "img":"https://www.muscleandfitness.com/wp-content/uploads/2018/12/man-gym-pushup-1109.jpg?quality=86&strip=all", "name": "Pushup", "age": "20-25", "time": 50},   
+
+    {"id": 4, "img":"https://images.onlymyhealth.com//imported/images/2021/August/06_Aug_2021/big2squats.jpg", "name": "Squat", "age": "20-25", "time": 60},  
+
+    {"id": 6, "img":"https://evofitness.ch/wp-content/uploads/2018/10/Burpee-EVO-Fitness.jpg", "name": "Burpee", "age": "20-25", "time": 70},
+
+    {"id": 5, "img":"https://blogscdn.thehut.net/wp-content/uploads/sites/495/2018/10/25171220/Blog-Deadlifting-Male_1800x672_1200x672_acf_cropped.jpg", "name": "Deadlift", "age": "20-25", "time": 80}
     
 ]

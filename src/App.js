@@ -4,6 +4,7 @@ import Exercises from './components/Exercises/Exercises';
 import Profile from './components/Profile/Profile';
 import { useState } from 'react';
 import Break from './components/Break/Break';
+import Blog from './components/Blog/Blog';
 
 
 function App() {
@@ -21,12 +22,13 @@ function App() {
                 <h3>Fitness Studio</h3>
                 <h4>Select today’s exercise</h4> 
                 <Exercises addToList={addToList}></Exercises>
+                <Blog></Blog>
             </div>
 
             <div className='cart-container'>
                 <Profile></Profile>
                 <Break addABreak={addABreak}></Break>
-                <ExerciseDetails exerciseTimes={exerciseTimes} breakTime={breakTime}></ExerciseDetails>
+                <ExerciseDetails exerciseTimes={exerciseTimes} breakTime={breakTime}></ExerciseDetails>                
             </div>
         </div>
     );

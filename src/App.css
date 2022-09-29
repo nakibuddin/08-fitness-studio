@@ -9,6 +9,13 @@
     /* border: 1px solid red;     */
     margin: 80px 12% 0 12%;    
 }
+.exercises-container h4 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.exercises-container h3 {
+    color: #5D5FEF;
+}
 
 .cart-container {
     background-color: white;
